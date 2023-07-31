@@ -1,0 +1,45 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: antiquewhite
+}
+a{
+    color: #000;
+    font-size: 1.5rem;
+    text-decoration: none; /*nao existe list style pra a*/
+    padding: 4%;
+    line-height: 3rem;
+    font-weight: bold;
+}
+a:hover{
+    background-color: orange;
+    transition: 0.9s;
+}
+li{
+    list-style-type: none; /*nao existe text decoration pra a*/
+    display: inline;
+}
+nav{
+    width: 100%;
+    background-color: rgb(250, 221, 186);
+    border-bottom: 1px solid;
+    position: fixed;
+}
+.banner img{
+    width: 100%;
+}
+.foto img{
+    width: 280px;
+}
+.produto{
+    height: 425px;
+    padding: 0.5em;
+    border-radius: 5%;
+}
+.nome-produto{
+    font-size: 1.5em;
+    font-weight: bold;
+}
