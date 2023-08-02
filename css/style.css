@@ -53,6 +53,8 @@ h3{
 }
 .descricao{
     line-height: 1;
+    height: 50px;
+    overflow: hidden;
 }
 .preco{
     padding: 5px 0;
